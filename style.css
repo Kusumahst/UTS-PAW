@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #ededed;
+    padding: 15px 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+input[type="text"], input[type="password"], input[type="file"] {
+    padding: 5px;
+    width: 200px;
+    margin-left: 8px;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #AD88C6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+a[href="logout.php"], a[href="register.php"], a[href="login.php"] {
+    padding: 8px 20px;
+    background-color: #7469B6;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+a[href="insert.php"], a[href="main.php"] {
+    padding: 8px 20px;
+    background-color: #AD88C6;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+a[href^="detail.php?id"], a[href^="edit.php?id"], a[href^="delete.php?id"] {
+    padding: 8px 20px;
+    background-color: #AD88C6;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+a.btn {
+    padding: 8px 20px;
+    background-color: #7469B6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+a.bttn {
+    padding: 6px 20px;
+    background-color: #7469B6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.img {
+    border: 2px solid #E1AFD1;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #1C0640;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+h3 {
+    color: #1C0640;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+td {
+    vertical-align: top;
+}
+
+td.description {
+    max-width: 300px;
+    word-wrap: break-word;
+}
